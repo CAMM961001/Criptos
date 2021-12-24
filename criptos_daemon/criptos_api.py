@@ -1,7 +1,7 @@
 import bitso
 import datetime as dt
 
-class BitsoApi():
+class BitsoApi:
 	"""A class to manage bitso API single connection and queries"""
 
 
