@@ -10,9 +10,12 @@ class BitsoApi:
 		#Set time delta for Mexico City UTC-6.
 		self.time_delta = dt.timedelta(hours=6)
 
-		#Desired criptocoins tickers and bitso api object.
+		#Desired tickers tickers and bitso api object with credentials.
 		self.ticker_list = ['btc_usd', 'eth_usd', 'mana_usd']
-		self.api = bitso.Api()
+
+		self.api_key = 'ererg'
+		self.api_secret = 'efg'
+		self.api = bitso.Api() #self.api_key, self.api_secret
 
 
 	def single_query(self, ticker):
